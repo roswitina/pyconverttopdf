@@ -43,9 +43,38 @@ Konvertierung starten: Klicken Sie erneut auf "Datei(en) auswählen / Konvertier
 # 8. Protokolldatei
 Das Skript erstellt eine Protokolldatei namens converter.log, in der alle Aktionen und Fehler protokolliert werden. Sie können diese Datei öffnen, um Details zu den Konvertierungsprozessen zu überprüfen.
 
-# Fehlerbehebung
+# 9. Fehlerbehebung
 Fehlende Abhängigkeiten: Stellen Sie sicher, dass alle erforderlichen Bibliotheken installiert sind.
 
 Pfadprobleme: Überprüfen Sie, ob die Pfade zu Ghostscript und Tesseract korrekt in der PATH-Umgebungsvariable eingetragen sind.
 
 Berechtigungen: Stellen Sie sicher, dass Sie die erforderlichen Berechtigungen haben, um Dateien zu lesen und zu schreiben.
+
+# 10. Verwendete Python-Bibliotheken
+
+    tkinter: Standardbibliothek für GUI-Anwendungen in Python.
+    openpyxl: Zum Arbeiten mit Excel-Dateien.
+    reportlab: Zum Erstellen von PDF-Dokumenten.
+    subprocess: Zum Ausführen von Systembefehlen.
+    os: Zum Arbeiten mit dem Dateisystem.
+    tempfile: Zum Erstellen temporärer Dateien und Verzeichnisse.
+    logging: Zum Protokollieren von Ereignissen und Fehlern.
+    shutil: Zum Kopieren und Löschen von Dateien.
+    sys: Zum Beenden des Skripts bei Fehlern.
+    threading: Zum Ausführen von Aufgaben in separaten Threads.
+    win32com.client: Zum Arbeiten mit Microsoft Office-Anwendungen (nur Windows).
+    queue: Zum Verwalten von Warteschlangen.
+    PyPDF2: Zum Arbeiten mit PDF-Dateien.
+    langdetect: Zum Erkennen von Sprachen in Texten.
+    Pillow (PIL): Zum Arbeiten mit Bildern.
+    pytesseract: Zum Ausführen von OCR (optische Zeichenerkennung) mit Tesseract.
+    pdf2image: Zum Konvertieren von PDF-Seiten in Bilder.
+    pandas: Zum Arbeiten mit CSV-Dateien.
+    python-pptx: Zum Arbeiten mit PowerPoint-Dateien.
+    docx2pdf: Zum Konvertieren von DOCX-Dateien in PDF.
+
+# 11. Externe Tools
+
+    Ghostscript: Zum Konvertieren von PDFs in das PDF/A-Format.
+    Tesseract OCR: Zum Ausführen von OCR auf Bildern und PDFs.
+
