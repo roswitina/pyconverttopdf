@@ -76,5 +76,40 @@ Berechtigungen: Stellen Sie sicher, dass Sie die erforderlichen Berechtigungen h
 # 11. Externe Tools
 
     Ghostscript: Zum Konvertieren von PDFs in das PDF/A-Format.
+
+### Das Skript ist darauf ausgelegt, verschiedene Dateitypen in PDF-Dateien zu konvertieren. Hier ist eine Übersicht der Dateitypen, die mit dem Skript konvertiert werden können:
+
+1. **DOCX (Word-Dokumente)**:
+   - Konvertiert Word-Dokumente in PDF-Dateien.
+
+2. **XLSX (Excel-Tabellen)**:
+   - Konvertiert Excel-Tabellen in PDF-Dateien.
+
+3. **PPTX (PowerPoint-Präsentationen)**:
+   - Konvertiert PowerPoint-Präsentationen in PDF-Dateien.
+
+4. **CSV (Kommagetrennte Werte)**:
+   - Konvertiert CSV-Dateien in PDF-Dateien.
+
+5. **TXT (Textdateien)**:
+   - Konvertiert Textdateien in PDF-Dateien.
+
+6. **Bilder (JPG, JPEG, PNG)**:
+   - Konvertiert Bilddateien in PDF-Dateien. Optional kann OCR (optische Zeichenerkennung) angewendet werden, um Text aus den Bildern zu extrahieren.
+
+7. **PDF**:
+   - Kann bestehende PDF-Dateien in das PDF/A-Format konvertieren oder OCR auf PDF-Dateien anwenden, um Text aus Bildern innerhalb der PDF zu extrahieren.
+
+### Zusätzliche Funktionen
+- **PDF/A-Konvertierung**:
+  - Das Skript kann PDF-Dateien in das PDF/A-Format konvertieren, das für die Langzeitarchivierung geeignet ist.
+
+- **OCR (Optical Character Recognition)**:
+  - Das Skript kann OCR auf Bilder und PDF-Dateien anwenden, um Text zu extrahieren und in das PDF einzubetten.
+
+- **Metadaten**:
+  - Das Skript kann Metadaten wie Titel und Autor zu den erstellten PDF-Dateien hinzufügen.
+
+Das Skript bietet eine benutzerfreundliche grafische Oberfläche (GUI), die es Benutzern ermöglicht, Dateien auszuwählen und die Konvertierungseinstellungen anzupassen.
     Tesseract OCR: Zum Ausführen von OCR auf Bildern und PDFs.
 
