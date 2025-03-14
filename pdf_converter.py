@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-#
-# Dieses Programm ist freie Software: Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation, Version 3 der Lizenz, oder (nach Ihrer Wahl) jeder neueren Version veröffentlicht, weitergeben und/oder modifizieren.
-#
-# Dieses Programm wird in der Hoffnung bereitgestellt, dass es nützlich sein wird, aber OHNE JEDE GEWÄHR; ohne sogar die implizite Gewährleistung der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Siehe die GNU General Public License für weitere Details.
-#
-# Sie sollten eine Kopie der GNU General Public License zusammen mit diesem Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
-#
-# Copyright (c) 2025 roswitina@outlook.com
-
 import tkinter as tk
 from tkinter import filedialog, messagebox, StringVar, IntVar
 from tkinter.ttk import Progressbar
